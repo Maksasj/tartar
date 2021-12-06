@@ -1,0 +1,14 @@
+{
+    "Graphic_Settings": 
+    {
+        "width": 1280,
+        "hight": 720,
+        "render_distance": 700
+    },
+    "Sound":
+    {
+        "music_vol": 0.1,
+        "sound_effects_vol": 0.05,
+        "ambient": 0.05
+    }
+}
