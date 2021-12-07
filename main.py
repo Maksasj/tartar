@@ -295,7 +295,7 @@ while True: # main game loop
         if Player.won == True:
             text.draw(distplay_surface , "You won !!!", (255, 255, 0) , 0 , 0)
         Player_Healt_Prop = str(int(Player.health))+'/'+str(Player.max_health)
-        text.draw(distplay_surface , "Healt: "+Player_Healt_Prop, (255, 0, 0) , -(width/2) + (width/9), (hight/2) - (hight/20))
+        text.draw(distplay_surface , "Health: "+Player_Healt_Prop, (255, 0, 0) , -(width/2) + (width/9), (hight/2) - (hight/20))
         text.draw(distplay_surface , "Level: "+str(level+1)+"/"+(str(max_level+1)), (255, 255, 255) , -(width/2) + (width/12), -(hight/2) + (hight/20))
 
         clock.tick()
